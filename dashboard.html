@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <header class="tm-header">
+        <h1 class="logo"><img src="./images/logo.png" alt="Logo" width="100"></h1>
+        <nav class="tm-nav">
+            <ul class="nav-links">
+                <li><a href="homePage.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="contact.html">Profile</a></li>
+            </ul>
+        </nav>
+    </header>    
+
+    <div class="container">
+        <section class="welcome-section">
+            <h2>Welcome to Hostel Management System</h2>
+            <p>Manage your bookings, update your profile, and explore settings to customize your experience.</p>
+        </section>
+
+        <section class="booking-beds-section">
+            <h2>Booking Beds</h2>
+            <!-- Add form for booking beds -->
+            <form action="#" method="post">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required><br>
+                
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="mixed">Mixed</option>
+                </select><br>
+
+                <label for="num-guests">Number of Guests:</label>
+                <input type="number" id="num-guests" name="num-guests" min="1" required><br>
+
+                <label for="room-preference">Bed Preference:</label>
+                <select id="room-preference" name="room-preference">
+                    <option value="single">Single Bed</option>
+                    <option value="double">Double Bed</option>
+                    <option value="shared">Shared Bed</option>
+                </select><br>
+
+                <input type="submit" value="Check Availability">
+            </form>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,109 @@
+/* Basic styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tm-header {
+    background-color: teal;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-radius: 150px; */
+    height:50px;
+}
+
+.container {
+    background-color: skyblue;
+    padding: 20px; /* Add padding to create space between content and container edges */
+    margin-top: 20px; /* Adjust the top margin to fill the gap */
+}
+
+.logo img {
+    width: 100px;
+}
+
+/* Navigation styles */
+.tm-nav {
+    text-align: center; /* Center align the nav links */
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px; /* Add spacing between nav links */
+}
+
+.nav-links li a {
+    color: black; /* Set text color */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Sections */
+
+.welcome-section,
+.booking-beds-section,
+.manage-beds-section {
+    margin-bottom: 30px;
+    margin-top: 20px; /* Add top margin to create space between sections */
+}
+h2 {
+    color: #333;
+}
+
+/* Form styles */
+
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="date"],
+form input[type="number"],
+form select {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    padding: 8px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Table styles */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
