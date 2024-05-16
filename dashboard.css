@@ -1,0 +1,109 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+.tm-header {
+    background-color: #00796b; /* Teal */
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.logo img {
+    width: 100px;
+}
+
+/* Navigation styles */
+.tm-nav {
+    text-align: center;
+    
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: white; /* White color for links */
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.nav-links li a:hover {
+    color: #ffcc80; /* Light Orange on hover */
+}
+
+/* Sections */
+h2 {
+    color: #009688; /* Teal */
+    margin-bottom: 15px;
+}
+
+/* Form styles */
+form {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555; /* Dark Gray */
+}
+
+form input[type="date"],
+form input[type="number"],
+form select {
+    width: calc(100% - 22px); /* Adjusted width to fit container */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Light Gray border */
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #009688; /* Teal */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+form input[type="submit"]:hover {
+    background-color: #00796b; /* Darker Teal on hover */
+}
+
+/* Footer styles */
+.tm-footer {
+    background-color: #333; /* Dark Gray */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px; /* Add some space between content and footer */
+}

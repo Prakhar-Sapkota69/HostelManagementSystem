@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Header styles */
+  .tm-header {
+    background-color: #00796b; /* Teal */
+    padding: 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+  
+  /* Navigation styles */
+  .tm-nav {
+    text-align: center;
+    
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: white; /* White color for links */
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .nav-links li a:hover {
+    color: #ffcc80; /* Light Orange on hover */
+  }
+  
+  .nav-links li a.login-btn {
+    background-color: #007bff;
+  }
+  
+  .nav-links li a.signup-btn {
+    background-color: #28a745;
+  }
+  
+  /* Logo styles */
+  .logo img {
+    width: 100px;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    background-color: lightblue;
+    padding: 40px 0;
+    overflow: hidden;
+  }
+  
+  .content-item {
+    margin-bottom: 40px; /* Increase margin to create a larger gap between items */
+    overflow: hidden; /* Clear float */
+    display: flex; /* Use flexbox for layout */
+  }
+  
+  .content-item .content-img {
+    width: 35%; /* Set image width */
+    flex-shrink: 0; /* Prevent image from shrinking */
+  }
+  
+  .content-item .content-text {
+    font-style: italic;
+    font-size: 24px;
+    width: 65%; /* Set text width */
+    margin-left: 20px; /* Add some space between image and text */
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .content-item {
+      flex-direction: column; /* Change to column layout on smaller screens */
+    }
+  
+    .content-item .content-img,
+    .content-item .content-text {
+      width: 100%; /* Set width to 100% on smaller screens */
+      margin-left: 0; /* Remove margin on smaller screens */
+    }
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  

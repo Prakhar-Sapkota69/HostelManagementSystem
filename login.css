@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 2px;
+  box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header styles */
+.tm-header {
+  background-color: #00796b; /* Teal */
+  padding: 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.logo img {
+  width: 100px;
+}
+
+/* Navigation styles */
+.tm-nav {
+  text-align: center;
+  
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: white; /* White color for links */
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.nav-links li a:hover {
+    color: #ffcc80; /* Light Orange on hover */
+  }
+
+.nav-links li a.signup-btn {
+    background-color: #28a745;
+  }  
+
+/* Form styles */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: calc(100% - 12px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
